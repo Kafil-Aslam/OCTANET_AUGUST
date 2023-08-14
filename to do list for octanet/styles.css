@@ -1,0 +1,142 @@
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: midnightblue;;
+}
+
+.form-container {
+    background-color: lightskyblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="date"] {
+    width: auto;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+.task-list {
+    background-color: lightskyblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.task-item {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.task-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: midnightblue;
+}
+.task-item p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.countdown {
+    font-size: 14px;
+    color: #888;
+}
+
+
+.task-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.task-list li {
+    margin-bottom: 20px;
+}
+
+
+.task-list li:hover {
+    background-color: lavender;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.task-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:lavender ;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+.delete-button {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+.countdown {
+    font-size: 14px;
+    color: #888;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>To-Do List</title>
+</head>
+<body> 
+   <div class="form-container">
+   <h1>To-Do List</h1>
+    <form id="task-form">
+        <label for="task-name">Task Name:</label>
+        <input type="text" id="task-name" name="taskName" required>
+
+        <label for="task-description">Description:</label>
+        <textarea id="task-description" name="taskDescription" required></textarea>
+
+        <label for="current-date">Current Date:</label>
+        <input type="text" id="current-date" name="currentDate"  readonly>
+
+        <label for="due-date">Due Date:</label>
+        <input type="text" id="due-date" name="dueDate" required>
+
+        <label for="countdown">Countdown:</label>
+        <div id="countdown" name="countdown"></div>
+
+        <label for="priority">Priority:</label>
+        <select id="priority" name="priority">
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+        </select>
+
+        <label for="label">Label:</label>
+        <input type="text" id="label" name="label">
+
+        <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div class="task-list ">
+    <h2>Submitted Tasks</h2>
+    <ul>
+        <!-- Submitted tasks will be added here dynamically -->
+    </ul>
+</div>
+ <script src="script.js"></script>
+</body>
+</html>
